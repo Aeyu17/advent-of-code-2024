@@ -1,5 +1,3 @@
-use std::slice::Iter;
-
 fn main() {
     let data = include_str!("./input1.txt").to_string();
     let result = day_04(data);
